@@ -205,6 +205,9 @@
     margin: 30px auto;
     width: 100%;
   }
+  .chart-zone__main {
+    padding: 5px;
+  }
 }
 body {
   display: -webkit-box;
