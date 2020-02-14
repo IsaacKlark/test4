@@ -203,6 +203,7 @@
   .chart-zone__mobile-horse {
     display: block;
     margin: 30px auto;
+    width: 100%;
   }
 }
 body {
