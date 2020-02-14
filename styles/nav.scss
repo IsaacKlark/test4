@@ -1,0 +1,97 @@
+.nav {
+    background-color: #35484f;
+    
+    &__h1 {
+        background-color: #1c8ae3;
+        margin: 0;
+        font-family: Helvetica;
+        font-size: 20px;
+        padding: 20px 35px 20px 20px;
+        color: #010935;
+    }
+
+    &__ul {
+        list-style: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__li {
+        margin: 0;
+        padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: stretch;
+            -ms-flex-pack: stretch;
+                justify-content: stretch;
+    }
+
+    &__a {
+        text-decoration: none;
+        padding: 20px 35px 20px 20px;
+        color: #97a5a9;
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
+        font-size: 14px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    &__a:hover {
+        background-color: #465a63;
+        color: white;
+    }
+
+    &__a:hover:focus {
+        background-color: #e1458e;
+        color: white;
+    }
+
+    &__a:focus {
+        background-color: #e1458e;
+        color: white;
+        outline: 0;
+    }
+
+    &__a svg {
+        width: 20px;
+        height: 20px;
+        margin: 0 10px 0 0;
+    }
+
+    &__a:hover svg path {
+        fill: white;
+    }
+
+    &__a:focus svg path {
+        fill: white;
+    }
+}
+
+@media(max-width: 900px) {
+    .nav__h1 {
+        text-align: center;
+    }
+
+    .nav__a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
