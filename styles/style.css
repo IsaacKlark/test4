@@ -158,6 +158,9 @@
   display: flex;
   background-size: contain;
 }
+.chart-zone__mobile-horse {
+  display: none;
+}
 
 @media (max-width: 900px) {
   .chart-zone__top {
@@ -193,6 +196,13 @@
     top: 0;
     right: 0;
     margin-bottom: 10px;
+  }
+  .chart-zone__bottom {
+    padding: 0;
+  }
+  .chart-zone__mobile-horse {
+    display: block;
+    margin: 30px auto;
   }
 }
 body {
