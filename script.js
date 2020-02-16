@@ -2,6 +2,7 @@ const svg = document.querySelector(".box");
 const wave = document.querySelector(".wave");
 let targ = document.querySelector(".target");
 const message = document.querySelector(".message");
+console.log(document.documentElement.clientWidth);
 
 const setCoordsOfTarget = (offsetY, offsetX) => {
     const clientHeight = svg.clientHeight;
@@ -19,7 +20,7 @@ document.querySelector(".wave").addEventListener("mouseenter",
 (e) => {
     setCoordsOfTarget(e.offsetY, e.offsetX);
 })
-document.querySelector(".wave").addEventListener("mouseout", 
+document.querySelector(".wave").addEventListener("mouseleave", 
 (e) => {
     setCoordsOfTarget(e.offsetY, e.offsetX);
 })
@@ -27,7 +28,7 @@ document.querySelector(".wave1").addEventListener("mouseenter",
 (e) => {
     setCoordsOfTarget(e.offsetY, e.offsetX);
 })
-document.querySelector(".wave1").addEventListener("mouseout", 
+document.querySelector(".wave1").addEventListener("mouseleave", 
 (e) => {
     setCoordsOfTarget(e.offsetY, e.offsetX);
 })

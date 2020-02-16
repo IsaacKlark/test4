@@ -7,7 +7,7 @@
 <metadata>
 Created by potrace 1.15, written by Peter Selinger 2001-2017
 </metadata>
- <g transform="translate(0.000000,197.000000) scale(0.100000,-0.100000)" fill="#ececec" stroke="none">
+ <g transform="translate(40.000000,208.000000) scale(0.095,-0.109000)" fill="#ececec" stroke="none">
             <path d="M2573 1783 c-1665 -3 -1883 -5 -1883 -18 0 -11 12 -15 46 -15 l47 0
        -7 -77 c-3 -42 -6 -98 -6 -125 l0 -48 -50 0 c-38 0 -50 -4 -50 -15 0 -11 12
        -15 50 -15 l50 0 0 -120 0 -120 -45 0 c-33 0 -45 -4 -45 -15 0 -11 12 -15 45
@@ -73,14 +73,14 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
        -360 0 -360 0 0 120 0 120 360 0 360 0 0 -120z m750 0 l0 -120 -360 0 -360 0
        0 120 0 120 360 0 360 0 0 -120z" />
           </g>
-          <g>
+          <g transform="translate(40.000000,0) scale(0.95,1)">
             <rect fill="rgba(228, 206, 209, 0.5)" stroke="#dab4bd" width="350" height="19" y="23" x="79"></rect>
             <rect fill="rgba(180, 214, 235, 0.5)" stroke="#b4d6eb" width="310" height="19" y="52" x="79"></rect>
             <rect fill="rgba(234, 226, 191, 0.5)" stroke="#eae2bf" width="10" height="19" y="80" x="79"></rect>
             <rect fill="rgba(203, 225, 219, 0.5)" stroke="#cbe1db" width="13" height="19" y="108" x="79"></rect>
             <rect fill="rgba(199, 188, 214, 0.5)" stroke="#c7bcd6" width="74" height="19" y="138" x="79"></rect>
           </g>
-          <g fill="#465a63">
+          <g fill="#465a63" transform="translate(40.000000,0) scale(0.95,1)">
             <text x="70" y="190">0</text>
             <text x="143" y="190">200</text>
             <text x="216" y="190">400</text>
