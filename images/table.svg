@@ -94,10 +94,10 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
             <text x="800" y="190">2000</text>
           </g>
           <g fill="#465a63" transform="scale(0.9, 0.9)">
-            <text x="40" y="41">Всего</text>
-            <text x="25" y="74">Закрыто</text>
-            <text x="20" y="103">В работе</text>
-            <text x="30" y="135">Новый</text>
-            <text x="4" y="168">Просрочен</text>
+            <text x="50" y="41">Всего</text>
+            <text x="33" y="74">Закрыто</text>
+            <text x="30" y="103">В работе</text>
+            <text x="40" y="135">Новый</text>
+            <text x="14" y="168">Просрочен</text>
           </g>
 </svg>
